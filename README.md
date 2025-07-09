@@ -52,7 +52,7 @@ A contribuir con propuestas de:
 ### 📬 ¿Cómo colaborar?
 
 - Haz un **fork** de este repositorio.
-- Propón tus cambios en `blocklist.json` (o el archivo correspondiente).
+- Propón tus cambios en `universeids.txt` (o el archivo correspondiente).
 - Envía un **Pull Request** con una breve justificación.
 - Nuestro equipo de validación revisará tu propuesta.
 
