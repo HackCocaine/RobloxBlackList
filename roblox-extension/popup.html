@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Roblox Parental Control</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      width: 300px;
+      height: 270px;
+      background-image: url("icons/background.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-shadow: 1px 1px 2px black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 12px;
+      box-sizing: border-box;
+    }
+    h3 {
+      margin-top: 0;
+    }
+    #timer {
+      font-weight: bold;
+      color: #90ee90;
+    }
+    button {
+      padding: 8px;
+      background-color: #0078D7;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #005bb5;
+    }
+    select {
+      margin-top: 5px;
+      padding: 5px;
+    }
+    #footer {
+      font-size: 12px;
+      text-align: center;
+    }
+    a {
+      color: lightblue;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h3 id="title">Roblox Parental Control</h3>
+    <button id="startBtn">Inicio Automático</button>
+    <p><span id="labelTimer">Tiempo restante:</span> <span id="timer">10:00</span></p>
+    <p id="progress"></p>
+    <label for="langSelect">Idioma:</label>
+    <select id="langSelect">
+      <option value="es">Español</option>
+      <option value="en">English</option>
+    </select>
+  </div>
+  <div id="footer">
+    <a href="https://github.com/HackCocaine" id="githubLink">GitHub</a>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

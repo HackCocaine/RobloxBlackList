@@ -1,0 +1,1 @@
+console.log("🔌 Extensión Roblox activa en esta página.");
