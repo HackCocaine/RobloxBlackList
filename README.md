@@ -25,6 +25,9 @@ Nuestra extensión para Chrome utiliza esta lista para **bloquear automáticamen
 3. Visite [roblox.com](https://www.roblox.com) y active la extensión.
 4. Espere unos segundos mientras se carga la página: **los bloqueos se aplicarán automáticamente**.
 
+![image](https://github.com/user-attachments/assets/b335da06-3748-4ebf-a05c-bfb1d06f16e4)
+
+
 ---
 
 ## ⚠️ Disclaimers Importantes
